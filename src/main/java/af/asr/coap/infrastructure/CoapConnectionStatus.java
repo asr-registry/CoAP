@@ -10,7 +10,9 @@ public class CoapConnectionStatus {
     private String identity;
     private String secret;
 
-
+    public String getBaseUri() {
+        return baseUri;
+    }
 
     public CoapConnectionStatus setBaseUri(String baseUri) {
         this.baseUri = baseUri;

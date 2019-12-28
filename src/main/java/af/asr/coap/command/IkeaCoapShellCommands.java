@@ -11,7 +11,9 @@ import java.util.stream.Collectors;
 
 import af.asr.coap.infrastructure.CoapConnectionStatus;
 import af.asr.coap.infrastructure.util.CoapDtlsSupport;
+import af.asr.coap.infrastructure.util.PrintUtils;
 import af.asr.coap.infrastructure.util.Row;
+import af.asr.coap.provider.IkeaDeviceInstanceValueProvider;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.eclipse.californium.core.CoapClient;
 import org.eclipse.californium.core.CoapResponse;

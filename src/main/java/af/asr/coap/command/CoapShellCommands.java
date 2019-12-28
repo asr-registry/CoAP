@@ -9,12 +9,16 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors
+import java.util.stream.Collectors;
 
 import af.asr.coap.infrastructure.CoapConnectionStatus;
 import af.asr.coap.infrastructure.util.CoapDtlsSupport;
 import af.asr.coap.infrastructure.util.PrintUtils;
 import af.asr.coap.infrastructure.util.Row;
+import af.asr.coap.provider.ContentTypeValueProvider;
+import af.asr.coap.provider.DiscoveryQueryValueProvider;
+import af.asr.coap.provider.UriPathValueProvider;
+import af.asr.coap.provider.UriSchemaValueProvider;
 import org.eclipse.californium.core.CoapClient;
 import org.eclipse.californium.core.CoapHandler;
 import org.eclipse.californium.core.CoapObserveRelation;
