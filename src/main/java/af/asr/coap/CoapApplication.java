@@ -1,14 +1,12 @@
 package af.asr.coap;
 
-import af.asr.coap.shell.infrastructure.CoapShellProperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@EnableConfigurationProperties(CoapShellProperties.class)
+@ComponentScan(basePackages = {"af.asr.coap.web.*"})
 public class CoapApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(CoapApplication.class, args);
 	}
