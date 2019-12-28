@@ -24,7 +24,7 @@ import org.springframework.util.StringUtils;
 @Component
 public class CoapDtlsSupport {
 
-    private CoapShellPropertiessa properties;
+    private CoapShellProperties properties;
 
     @Autowired
     public CoapDtlsSupport(CoapShellProperties properties) {
