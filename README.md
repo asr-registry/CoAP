@@ -33,3 +33,17 @@ CoAP supports four different message types:
 - Client: The entity that sends a request and the destination of the response
 
 - Server: The entity that receives a request from a client and sends back a response to the client
+
+#### Message Structure
+
+- Ver: It is a 2 bit unsigned integer indicating the version
+
+- T: it is a 2 bit unsigned integer indicating the message type: 0 confirmable, 1 non-confirmable
+
+- TKL: Token Length is the token 4 bit length
+
+- Code: It is the code response (8 bit length)
+
+- Message ID: It is the message ID expressed with 16 bit
+
+- And so on.
