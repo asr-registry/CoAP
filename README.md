@@ -9,3 +9,27 @@ The main features of CoAP protocols are:
 - Low overhead and very simple to parse
 - URI and content-type support
 - Proxy and caching capabilities
+
+Some features are very similar to HTTP even if CoAP must not be considered a compressed HTTP protocol because CoAP is specifically designed for IoT and in more details for M2M so it is very optimized for this task.
+
+
+There are two different layers that make CoAp protocol: Messages and Request/Response. The Messages layer deals with UDP and with asynchronous messages. The Request/Response layer manages request/response interaction based on request/response messages.
+
+CoAP supports four different message types:
+
+- Confirmable
+- Non-confirmable
+- Acknowledgment
+- Reset
+
+#### Common Terminologies
+
+- Endpoint: An entity that participates in the CoAP protocol. Usually, an Endpoint is identified with a host
+
+- Sender: The entity that sends a message
+
+- Recipient: The destination of a message
+
+- Client: The entity that sends a request and the destination of the response
+
+- Server: The entity that receives a request from a client and sends back a response to the client
