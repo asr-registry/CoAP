@@ -1,4 +1,4 @@
-package af.asr.coap.infrastructure.util;
+package af.asr.coap.shell.infrastructure.util;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,7 +11,7 @@ import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
 import javax.net.ssl.X509TrustManager;
 
-import af.asr.coap.infrastructure.CoapShellProperties;
+import af.asr.coap.shell.infrastructure.CoapShellProperties;
 import org.eclipse.californium.scandium.DTLSConnector;
 import org.eclipse.californium.scandium.config.DtlsConnectorConfig;
 import org.eclipse.californium.scandium.dtls.pskstore.StaticPskStore;

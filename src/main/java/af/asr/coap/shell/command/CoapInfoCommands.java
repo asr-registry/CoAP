@@ -1,10 +1,10 @@
-package af.asr.coap.command;
+package af.asr.coap.shell.command;
 
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import af.asr.coap.infrastructure.util.Row;
+import af.asr.coap.shell.infrastructure.util.Row;
 import org.eclipse.californium.core.coap.MediaTypeRegistry;
 
 import org.springframework.shell.standard.ShellCommandGroup;

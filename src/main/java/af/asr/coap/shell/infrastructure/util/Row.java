@@ -1,4 +1,4 @@
-package af.asr.coap.infrastructure.util;
+package af.asr.coap.shell.infrastructure.util;
 
 import lombok.Getter;
 import lombok.Setter;

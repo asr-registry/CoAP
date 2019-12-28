@@ -1,4 +1,4 @@
-package af.asr.coap.provider;
+package af.asr.coap.shell.provider;
 
 import java.util.ArrayList;
 import java.util.List;

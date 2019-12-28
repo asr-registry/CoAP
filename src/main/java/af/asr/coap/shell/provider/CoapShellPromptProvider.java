@@ -1,6 +1,6 @@
-package af.asr.coap.provider;
+package af.asr.coap.shell.provider;
 
-import af.asr.coap.infrastructure.CoapConnectionStatus;
+import af.asr.coap.shell.infrastructure.CoapConnectionStatus;
 import org.jline.utils.AttributedString;
 import org.jline.utils.AttributedStyle;
 

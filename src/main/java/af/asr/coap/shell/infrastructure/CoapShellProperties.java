@@ -1,4 +1,4 @@
-package af.asr.coap.infrastructure;
+package af.asr.coap.shell.infrastructure;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.PositiveOrZero;

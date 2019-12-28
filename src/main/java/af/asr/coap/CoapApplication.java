@@ -1,6 +1,6 @@
 package af.asr.coap;
 
-import af.asr.coap.infrastructure.CoapShellProperties;
+import af.asr.coap.shell.infrastructure.CoapShellProperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

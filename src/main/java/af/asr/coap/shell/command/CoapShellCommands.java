@@ -1,4 +1,4 @@
-package af.asr.coap.command;
+package af.asr.coap.shell.command;
 
 import java.io.File;
 import java.io.FileReader;
@@ -11,14 +11,14 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import af.asr.coap.infrastructure.CoapConnectionStatus;
-import af.asr.coap.infrastructure.util.CoapDtlsSupport;
-import af.asr.coap.infrastructure.util.PrintUtils;
-import af.asr.coap.infrastructure.util.Row;
-import af.asr.coap.provider.ContentTypeValueProvider;
-import af.asr.coap.provider.DiscoveryQueryValueProvider;
-import af.asr.coap.provider.UriPathValueProvider;
-import af.asr.coap.provider.UriSchemaValueProvider;
+import af.asr.coap.shell.infrastructure.CoapConnectionStatus;
+import af.asr.coap.shell.infrastructure.util.CoapDtlsSupport;
+import af.asr.coap.shell.infrastructure.util.PrintUtils;
+import af.asr.coap.shell.infrastructure.util.Row;
+import af.asr.coap.shell.provider.ContentTypeValueProvider;
+import af.asr.coap.shell.provider.DiscoveryQueryValueProvider;
+import af.asr.coap.shell.provider.UriPathValueProvider;
+import af.asr.coap.shell.provider.UriSchemaValueProvider;
 import org.eclipse.californium.core.CoapClient;
 import org.eclipse.californium.core.CoapHandler;
 import org.eclipse.californium.core.CoapObserveRelation;
@@ -51,9 +51,9 @@ import org.springframework.util.Assert;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.util.StringUtils;
 
-import static af.asr.coap.infrastructure.util.PrintUtils.cyan;
-import static af.asr.coap.infrastructure.util.PrintUtils.green;
-import static af.asr.coap.infrastructure.util.PrintUtils.red;
+import static af.asr.coap.shell.infrastructure.util.PrintUtils.cyan;
+import static af.asr.coap.shell.infrastructure.util.PrintUtils.green;
+import static af.asr.coap.shell.infrastructure.util.PrintUtils.red;
 
 
 @ShellComponent

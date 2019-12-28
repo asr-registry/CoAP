@@ -1,4 +1,4 @@
-package af.asr.coap.command;
+package af.asr.coap.shell.command;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -9,11 +9,11 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-import af.asr.coap.infrastructure.CoapConnectionStatus;
-import af.asr.coap.infrastructure.util.CoapDtlsSupport;
-import af.asr.coap.infrastructure.util.PrintUtils;
-import af.asr.coap.infrastructure.util.Row;
-import af.asr.coap.provider.IkeaDeviceInstanceValueProvider;
+import af.asr.coap.shell.infrastructure.CoapConnectionStatus;
+import af.asr.coap.shell.infrastructure.util.CoapDtlsSupport;
+import af.asr.coap.shell.infrastructure.util.PrintUtils;
+import af.asr.coap.shell.infrastructure.util.Row;
+import af.asr.coap.shell.provider.IkeaDeviceInstanceValueProvider;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.eclipse.californium.core.CoapClient;
 import org.eclipse.californium.core.CoapResponse;
@@ -40,9 +40,9 @@ import org.springframework.shell.table.TableBuilder;
 import org.springframework.shell.table.TableModel;
 import org.springframework.util.StringUtils;
 
-import static af.asr.coap.infrastructure.util.PrintUtils.cyan;
-import static af.asr.coap.infrastructure.util.PrintUtils.normal;
-import static af.asr.coap.infrastructure.util.PrintUtils.red;
+import static af.asr.coap.shell.infrastructure.util.PrintUtils.cyan;
+import static af.asr.coap.shell.infrastructure.util.PrintUtils.normal;
+import static af.asr.coap.shell.infrastructure.util.PrintUtils.red;
 
 @ShellComponent
 @ShellCommandGroup(IkeaCoapShellCommands.SHELL_IKEA_COMMANDS_GROUP)

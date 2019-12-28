@@ -1,4 +1,4 @@
-package af.asr.coap.infrastructure.util;
+package af.asr.coap.shell.infrastructure.util;
 
 import java.io.IOException;
 import java.io.StringWriter;
